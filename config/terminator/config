@@ -1,0 +1,50 @@
+[global_config]
+  window_state = maximise
+[keybindings]
+  copy = <Primary>c
+  new_tab = <Primary>t
+  next_tab = <Primary>Tab
+  paste = <Primary>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    background_color = "#002b36"
+    background_darkness = 0.0
+    custom_command = /usr/bin/zsh
+    foreground_color = "#839496"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+  [[dark]]
+    cursor_color = "#aaaaaa"
+    background_color = "#002b36"
+    background_darkness = 0.0
+    custom_command = /usr/bin/zsh
+    foreground_color = "#839496"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
+  [[light]]
+    background_color = "#fbf1c7"
+    background_darkness = 0.0
+    cursor_color = "#d8d3c4"
+    custom_command = /usr/bin/zsh
+    foreground_color = "#3c3836"
+    palette = "#fbf1c7:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#7c6f64:#928374:#9d0006:#79740e:#b57614:#076678:#8f3f71:#427b58:#3c3836"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_custom_command = True
