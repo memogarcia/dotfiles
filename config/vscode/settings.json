@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "GitHub Sharp Dark",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.eol": "\n",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code Retina, Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "300",
+  "editor.formatOnSave": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
+}

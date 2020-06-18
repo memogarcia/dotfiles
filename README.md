@@ -1,6 +1,6 @@
 # Dotfiles
 
-Setting my linux configuration
+Setting up linux and windows
 
 ## Usage
 
