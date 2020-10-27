@@ -1,7 +1,3 @@
 # Dotfiles
 
-Setting up linux and windows
-
-## Usage
-
-    ./configure.sh
+Setting up linux, windows and mac
