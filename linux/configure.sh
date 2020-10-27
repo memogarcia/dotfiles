@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## Install tools
-# sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
-sudo apt install -y zsh neovim ansible git
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+sudo apt install -y zsh neovim ansible git python3 python3-pip
 
 ## zshrc
 chsh -s $(which zsh)
@@ -19,4 +19,3 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 mkdir -p ~/.config/nvim
 cp config/nvim/init.vim ~/.config/nvim
 
-# deb tools

@@ -1,26 +1,13 @@
-export ZSH="/home/memo/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 ZSH_THEME="nebirhos"
-
 plugins=(git python git-extras jsontools repo sudo ansible)
-
 source $ZSH/oh-my-zsh.sh
-
 export EDITOR=nvim
 export VISUAL=nvim
 alias vi=nvim
 alias vim=nvim
-
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
-else
-    export EDITOR='mvim'
-fi
-
-alias cat=bat
-# alias grep=rg
-
+alias v=nvim
 setopt EXTENDED_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_DUPS
@@ -29,19 +16,13 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_FIND_NO_DUPS
 setopt HIST_SAVE_NO_DUPS
 setopt HIST_BEEP
-
 export HISTTIMEFORMAT=${HISTTIMEFORMAT:-"%Y-%m-%d %H:%M:%S"}
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+:}ignoredups
-export HISTSIZE=${HISTSIZE:-32768} # resize history size
 export HISTFILESIZE=$HISTSIZE
-
 alias pirate='tmux new-session /mnt/c/Users/memog/src/venvs/.venv/bin/pirate-get -C "aria2c ''%s'' -d /mnt/c/Users/memog/Downloads     --seed-time=0"'
-
-alias doc-fzf='/home/memo/src/venvs/.venv/bin/doc-fzf'
-
+alias doc-fzf='/mnt/c/Users/memog/src/venvs/.venv/bin/doc-fzf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh  
-
-# Remove highlighting of the directories in console (windows)
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 LS_COLORS=$LS_COLORS:'ow=1;34:' ; export LS_COLORS
+export PATH=$PATH:~.local/bin
+cd ~

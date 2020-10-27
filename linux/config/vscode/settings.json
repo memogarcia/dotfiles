@@ -8,5 +8,18 @@
   "editor.fontFamily": "Fira Code Retina, Consolas, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontWeight": "300",
   "editor.formatOnSave": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "sync.gist": "ec77049b6bebabc2b566bd1405ab7285",
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "files.exclude": {
+    "**/.venv/": true
+  },
+  "sqltools.useNodeRuntime": true,
+  "[python]": {},
+  // "python.linting.pylintEnabled": false,
+  "python.linting.pylintArgs": [
+    "--disable=all --enable=F,E,W"
+  ],
+  "window.zoomLevel": 0
 }
