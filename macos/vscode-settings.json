@@ -1,0 +1,54 @@
+{
+    "workbench.colorTheme": "GitHub Sharp Dark",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.eol": "\n",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Hack, Menlo, Monaco, Fira Code Retina ,Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "300",
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "files.exclude": {
+        "**/.venv/": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // "python.linting.pylintEnabled": false,
+    "python.linting.pylintArgs": [
+        "--disable=all --enable=F,E,W"
+    ],
+    "python.languageServer": "Pylance",
+    "editor.guides.bracketPairs": true,
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 16,
+    "gitlens.codeLens.authors.command": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "python.formatting.autopep8Args": [
+        "--line-length",
+        "95"
+    ],
+    "terminal.integrated.gpuAcceleration": "on",
+    "workbench.startupEditor": "none",
+    "editor.renderControlCharacters": false,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "html.autoClosingTags": true,
+    "editor.linkedEditing": true,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.settings.useSplitJSON": true,
+    "gitlens.codeLens.enabled": false,
+    "explorer.compactFolders": false,
+    "go.delveConfig": {},
+    "go.gopath": "/Users/memo/go",
+    "go.toolsManagement.autoUpdate": true,
+    "telemetry.telemetryLevel": "off"
+}
